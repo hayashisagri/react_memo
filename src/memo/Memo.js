@@ -14,7 +14,7 @@ function Memo(props) {
       data = memo.map((value, key) => (
         <Item key={value.message} value={value} index={key + 1} />
       ));
-      setMode("deafult");
+      setMode("default");
       break;
 
     default:
