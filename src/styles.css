@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+}
+
+input {
+  border-radius: 10px;
+  border: none;
+  padding: 6px 16px;
+  outline: none;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  padding: 4px 16px;
+}
+
+li {
+  margin-right: 8px;
+  list-style: none;
+}
+
+.input-area {
+  background-color: #CEE0E6;
+  width: auto;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.memo-area {
+  background-color: #EAD4D4;
+  width: auto;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #666;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+}
